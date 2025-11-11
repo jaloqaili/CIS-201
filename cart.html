@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+
+  <link rel="stylesheet" href="mysheet.css"/>
+  <link rel="stylesheet" href="cartstyle.css">
+  <script type="text/javascript" src="cart.js"></script>
+
+<body>
+   <div id="background">
+    <img src="bg.jpg" height= "100%" width="100%" alt="background"> 
+    <img class="logo" src="bobslogo.png" height="25%" width="55%">
+    <img class="whitebg" src="whitebg.png" height="60%" width="80%">
+
+    <button class="contact" type="button">
+        <a href="contact.html"><img src="contact.jpeg" alt="contact button" height="30%" width="30%"> </a>
+    </button>
+
+      <button class="about" type="button">
+        <a href="about.html"><img src="about.jpeg" alt="about button" height="30%" width="30%"> </a>
+    </button>
+
+      <button class="home" type="button">
+        <a href="mysite.html"><img src="home.jpeg" alt="home button" height="30%" width="30%"> </a>
+    </button>
+
+      <button class="burger" type="button">
+        <a href="cart.html"><img src="homeburger-removebg-preview.png" alt="burger!" height="40%" width="40%"> </a>
+    </button>
+
+    <button class="menu" type="button">
+        <a href="menu.html"><img src="menu.jpeg" alt="menu button" height="30%" width="30%"></a>
+    </button>
+
+</head>
+
+ <main>
+        <section id="products">
+          <div class="meal">
+            <h2>Full Meal</h2>
+            <img src="fullmeal.png" alt="fullmeal" height="20%" width="20%">
+            <p>Price: SAR <span class="price">32.00</span></p>
+            <button onclick="addToCart('Full Meal', 32.00)">Add to Cart</button>
+        </div>
+        <div class="bur">
+            <h2>Burger</h2>
+            <img src="homeburger-removebg-preview.png" alt="burger" height="30%" width="30%">
+            <p>Price: SAR <span class="price">23.00</span></p>
+            <button onclick="addToCart('Burger', 23.00)">Add to Cart</button>
+        </div>
+        <div class="fries">
+            <h2>Fries</h2>
+            <img src="fries.png" alt="fries" height="30%" width="30%">           
+            <p>Price: SAR <span class="price">9.00</span></p>
+            <button onclick="addToCart('Fries', 9.00)">Add to Cart</button>
+        </div>
+        <div class="soda">
+            <h2>Soda</h2>
+            <img src="soda.png" alt="soda" height="30%" width="30%">
+            <p>Price: SAR <span class="price">5.00</span></p>
+            <button onclick="addToCart('Soda', 5.00)">Add to Cart</button>
+        </div>
+        <div class="milkshake">
+            <h2>Milkshake</h2>
+            <img src="milkshake.png" alt="milkshake" height="25%" width="25%">
+            <p>Price: SAR <span class="price">10.00</span></p>
+            <button onclick="addToCart('Milkshake', 10.00)">Add to Cart</button>
+        </div>
+        </section>
+
+        <div class="checkout">
+        <aside id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+            </div>
+            <div class="cart-total">
+            <p>Total: SAR <span id="cart-total">0.00</span></p>
+            </div>
+            <button id="checkout-btn">Checkout</button>
+        </aside>
+        </div>
+    </main>
+    
+</body>
+</html>

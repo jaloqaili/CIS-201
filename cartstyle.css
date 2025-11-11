@@ -1,0 +1,233 @@
+body, html{
+   height: 100%;
+}
+
+.bg{
+    background-image: url("bg.jpg");
+    height: 100%;
+    width: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: static;
+}
+
+.logo{
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.whitebg{
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact{
+    position: absolute;
+    top: 44%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.about{
+    position: absolute;
+    top: 44%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.burger{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+} 
+
+.home{
+    position: absolute;
+    top: 44%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 44%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+
+} 
+
+.portrait{
+    position: absolute;
+    top: 81%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutxt{
+    position: absolute;
+    top: 81%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#products {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#cart {
+    flex: 1;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 5px;
+}
+
+.cart-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+}
+
+#checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fcdd60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.meal {
+     position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.bur {
+     position: absolute;
+    top: 70%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.fries {
+     position: absolute;
+    top: 70%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.soda {
+     position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.milkshake {
+    position: absolute;
+    top: 70%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0; 
+}
+
+.checkout {
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0; 
+}

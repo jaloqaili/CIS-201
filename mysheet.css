@@ -1,0 +1,99 @@
+body, html{
+   height: 100%;
+}
+
+.bg{
+    background-image: url("bg.jpg");
+    height: 100%;
+    width: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: static;
+}
+
+.logo{
+
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.whitebg{
+
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact{
+    position: absolute;
+    top: 44%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.about{
+    position: absolute;
+    top: 44%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.burger{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+} 
+
+.home{
+    position: absolute;
+    top: 44%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 44%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+
+} 
+
+.portrait{
+    position: absolute;
+    top: 81%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutxt{
+    position: absolute;
+    top: 81%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+
+
